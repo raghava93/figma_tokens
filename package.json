@@ -9,7 +9,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "prettier:check": "prettier --check src/",
-    "sync-tokens-to-figma": "ts-node-esm -P tsconfig.json src/main.ts"
+    "sync-tokens-to-figma": "ts-node-esm -P tsconfig.json src/main.tsx"
   },
   "dependencies": {
     "react": "^18.2.0",
