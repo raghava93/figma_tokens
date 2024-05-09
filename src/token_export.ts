@@ -1,6 +1,6 @@
 import { GetLocalVariablesResponse, LocalVariable } from '@figma/rest-api-spec'
 import { rgbToHex } from './color.js'
-import { Token, TokensFile } from './token_types.js'
+import { Token, TokensFile } from './token_types.ts'
 
 function tokenTypeFromVariable(variable: LocalVariable) {
     switch (variable.resolvedType) {
